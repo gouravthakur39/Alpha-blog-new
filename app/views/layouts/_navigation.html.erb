@@ -61,8 +61,7 @@
                 data-toggle="dropdown"
                 role="button"
                 aria-haspopup="true"
-                aria-expanded="false"
-                >Your profile <span class="caret"></span
+                aria-expanded="false" >Your profile<%= "(admin)" if current_user.admin? %> <span class="caret"></span
               ></a>
               <ul class="dropdown-menu">
                 <li><%= link_to "Edit profile", edit_user_path(current_user) %> </li>
