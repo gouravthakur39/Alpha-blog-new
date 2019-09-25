@@ -1,4 +1,4 @@
-## Alpha blog app
+## Alpha blog app for learnig rails
 
 DEMO : https://alpha-blog-gt.herokuapp.com/
 
